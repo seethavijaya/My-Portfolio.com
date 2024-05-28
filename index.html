@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>protfolio website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://kits.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+    <div class="protfolio-container">
+        <ul class="navlist" id="sidemenu">
+        <li><a href="#header" class="active">Home</a></li>
+         <li><a href="#about">About</a></li> 
+         <li><a href="#services">Services</a></li> 
+         <li><a href="#portfolio">Portofolio</a></li> 
+         <li><a href="#contact">Contact</a></li>
+         <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+          <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+         </ul>
+         <div class="left-container">
+            <div class="icons">
+                <a href="https://www.facebook.com/profile.php?id=100024511966105&mibextid=ZbWKwL"> <i class="fa-brands fa-facebook-f"></i></a>
+                <i class="fa-brands fa-linkedin-in"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-codepen"></i>
+            </div>
+            <div class="content">
+                <p class="intro">Hi! I Am <span>Seetha Vijaya</span></p>
+                <h1>Data Scientist.</h1>
+                <p class="detail">I have a degree in computer science and a passion for solving issues by processing and analyzing data. That's why I'm looking for an innovative and data-driven company with a rich history of using data to improve the quality of its products.</p>
+            <div class="btn-container">
+                <button>Hire Me</button>
+                <button>View Project</button>
+            </div>
+            </div>
+         </div>
+    </div>
+         <!------about------------------------>
+         <div class="left-container">
+         <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                    <img src="image/vijju.jpeg">
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="sub-title">About</h1>
+                        <p class="aboutme">As a dedicated Data Scientist as a student in the field, I have developed a profound expertise in python and machine learning . My academic background in computer science and statistics provided me with a solid foundation, which I have built upon with hands-on experience in predictive modeling, natural language processing, and deep learning.proactive, punctual, and
+inquisitive individual, showcasing a strong work ethic and interpersonal skills
+</p>
+           <div class="tab-titles">
+            <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+            <p class="tab-links" onclick="opentab('experience')">Experience</p>
+            <p class="tab-links" onclick="opentab('education')">Education</p>
+           </div>
+           <div class="tab-contents active-tab" id="skills">
+            <ul>
+                <li><span>data visualization</span><br>graphics and data represntation</li>
+                <li><span>python programming</span><br>build websites and analysing</li>
+                <li><span>statistics</span><br>critical thinking and prediction</li>
+                <li><span>web development</span><br>web app development</li>
+            </ul>
+           </div>
+           <div class="tab-contents" id="experience">
+            <ul>
+                <li><span>2023-current</span><br>persuing degree in Bsc.computer science field.</li>
+                <li><span>2024</span><br>interned in datascience in LordAi company</li>
+                <li><span>2024</span><br>done the prajects on data visualization</li>
+                <li><span>2024-current</span><br>own experiences in building the websites and analysis</li>
+            </ul>
+           </div>
+           <div class="tab-contents" id="education">
+            <ul>
+                <li><span>2020</span><br>completed SSC from Shanti Vidya Nikethan High School</li>
+                <li><span>2020-2022</span>completed Intermediate in Maharshi Vedha Vidhyan Maaha Vidhyalaya </li>
+                <li><span>2022-current</span><br>persuing degree in Bsc.computer Science in St.Anns Collage For Women</li>
+            </ul>
+        </div>
+                    </div>
+
+                </div>
+            </div>
+         </div>
+     </div>
+   </div>
+   <!------------------services---------->
+   <div class="left-container">
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+   <div>
+    <i class="fa-solid fa-code"></i>
+    <h2>Web Development</h2>
+    <p>Web development build and maintain websites and web applications using programming, design tools and languages such as HTML, CSS, Python and JavaScript to meet both client and end-user needs.</p>
+    <a href="#">Learn more</a>
+   </div>
+   <div>
+    <i class="fa-solid fa-crop-simple"></i>
+    <h2>Data visualization</h2>
+    <p>Data Visualization is any technique for creating images, diagrams, or animations to communicate a message.</p>
+     <a href="#">Learn more</a>
+   </div>
+   <div>
+    <i class="fa-brands fa-app-store"></i>
+    <h2>Statistics</h2>
+    <p> Statistics is the study of the collection, analysis, interpretation, presentation, and organization of data. In other words, it is a mathematical discipline to collect, summarize data.</p>
+     <a href="#">Learn more</a>
+   </div>
+    </div>
+    </div>
+</div>
+   </div>
+<!-------portfolio----------->
+<div class="left-container">
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="image/website development.webp">
+                <div class="layer">
+                    <h3>Social Media App</h3>
+                    <p>Social media is a collective term for websites and applications that focus on communication, community-based input, interaction, content-sharing and collaboration. People use social media to stay in touch and interact with friends, family and various communities.</p>
+                <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="image/python.png">
+                <div class="layer">
+                    <h3>collage management app</h3>
+                    <p>A college management system is an ERP solution that enables the institutes to conduct online admissions, generate reports, create ID cards, enable online communication, manage curriculum, time tables and conduct online evaluations, track student progress, conduct data analysis, teach remotely etc.</p>
+                <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+          </div>
+          <a href="#" class="btn">See More</a>
+    </div>
+</div>
+</div>
+   <!------contact---->
+   <div class="left-container">
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-sharp fa-solid fa-paper-plane"></i>seethavijaya68@gmail.com</p>
+                    <p><i class="fa-solid fa-square-phone"></i>7731052139</p>
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/profile.php?id=100024511966105&mibextid=ZbWKwL"><i class="fa-brands fa-facebook"></i></a>
+                        <a href=""><i class="fa-brands fa-twitter-square"></i></a>
+                        <a href=""><i class="fa-brands fa-instagram"></i></a>
+                        <a href=""><i class="fa-brands fa-linkedin-in"></i></a>
+                    </div>
+                    <a href="image/Seetha Vijaya.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" row="6" placeholder="Your Message"></textarea>
+                        <button type="Submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>copyright  @ Seetha made <i class="fa-solid fa-heart"></i> by tutorials </p>
+        </div>
+    </div>
+   </div>
+   <!------------>
+            <!--------------------->
+         <div class="right-container"></div>
+         <div class="design">
+            <div class="circle"></div>
+            <div class="circle"></div>
+         </div>
+         </div>
+
+          <script>
+
+               var tablinks = document.getElementsByClassName("tab-links");
+               var tabcontents= document.getElementsByClassName("tab-contents");
+               
+               function opentab(tabname){
+                    for(tablink of tablinks){
+                        tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+     </script>
+
+     <script>
+
+        var sidemenu = document.getElementById("sidemenu");
+        
+        function openmenu(){
+            sidemenu.style.right="0";
+        }
+        function closemenu(){
+            sidemenu.style.right="-150px";
+        }
+     </script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbzhyM2djhpbiGPKtw4NdRd3XWoxM2pgu0gNRVL7ZTwHvpuX0BeLM4KUffH3ySimvp6Q/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg= document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML="Message Sent Successfully!"
+            setTimeout(function(){
+                msg.innerHTML=""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+     
+
+       
+
+         </body>
+         </html>
+
+
