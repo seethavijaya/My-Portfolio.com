@@ -173,13 +173,13 @@ button:nth-child(2):hover{
     border-radius: 15px;
 }
 .about-col-2{
-    flex-basis: 60%;
+    flex-basis: 70%;
 }
 .aboutme{
     font-size: 1.1rem ;
     color: #fff;
     max-width: 38rem ;
-    margin: 1.1rem 0 3rem 0;
+    margin: 1.1 rem 0 3rem 0;
     line-height: 1.8rem;
 }
 .sub-title{
@@ -226,6 +226,42 @@ button:nth-child(2):hover{
 }
 .tab-contents.active-tab{
     display: block;
+}
+.tab-button ul li span{
+    color:#5DB9EE;
+    font-size: 14px;
+}
+
+.tab-button.active-tab{
+    display: block;
+}
+.tab-button::after{
+    content: '';
+    width: 0;
+    height: 3px;
+    background: #5DB9EE;
+    position: absolute;
+    left:0;
+    bottom: -8px;
+    transition:0.5s;
+}
+.tab-button.active-link::after{
+    width:50%;
+}
+.tab-button{
+    display: flex;
+    
+}
+.tab-button.active-tab{
+    display: block;
+}
+.tab-button{
+    margin-right: 50px;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+    position: relative;
+    color: #fff;
 }
 /*------------services----------*/
 #services{
@@ -480,6 +516,23 @@ nav .fas{
     display: block;
 }
 
+.tab-links1::after{
+    content: '';
+    width: 0;
+    height: 3px;
+    position: absolute;
+    left:0;
+    bottom: -8px;
+    transition:0.5s;
+}
+.tab-contents1 ul li{
+    list-style: none;
+    margin: 10px 0;
+}
+.tab-contents1 ul li span{
+    color: #fff;
+    font-size: 14px;
+}
 
 
 
